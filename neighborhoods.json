@@ -1,0 +1,18 @@
+[
+  {
+    "name": "Greenfield",
+    "green_space": 9,
+    "nightlife": 3,
+    "family_friendly": 8,
+    "lat": 28.61,
+    "lon": 77.21
+  },
+  {
+    "name": "Downtown",
+    "green_space": 3,
+    "nightlife": 9,
+    "family_friendly": 4,
+    "lat": 28.64,
+    "lon": 77.23
+  }
+]

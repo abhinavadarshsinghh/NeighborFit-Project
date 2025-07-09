@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>NeighborFit</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>NeighborFit</h1>
+    <form id="preferenceForm">
+      <label>Green Space:
+        <input type="range" min="1" max="10" name="green_space">
+      </label>
+      <label>Nightlife:
+        <input type="range" min="1" max="10" name="nightlife">
+      </label>
+      <label>Family Friendly:
+        <input type="range" min="1" max="10" name="family_friendly">
+      </label>
+      <button type="submit">Match Me</button>
+    </form>
+    <p id="result"></p>
+    <div id="map-container"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
